@@ -1,0 +1,21 @@
+#produire{
+    background: url("../image/point.png") repeat center;
+    background-size: cover;
+    padding: 10px 0px;
+    display:flex;
+    flex-direction:column;
+}
+#produire h2{
+    text-align: center;
+}
+#first_input{
+    margin:auto;
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align:center;
+    color: white;
+    background-color: rgb(109,111,113);
+    padding: 10px 0px;
+    border-radius: 10px;
+}

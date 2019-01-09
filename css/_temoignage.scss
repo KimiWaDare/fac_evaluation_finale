@@ -1,0 +1,28 @@
+#temoignages{
+    background-color: rgb(232,221,202 );
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.title{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#temoignagesContent{
+    display:flex;
+    flex-direction:column;
+    width: 90%;
+}
+#temoignagesContent img{
+    max-width: 100%;
+}
+#temoignagesContent h2{
+    text-align :center;
+}
+
+#temoignagesContent p{
+    margin-left: 20px;
+}

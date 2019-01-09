@@ -1,0 +1,36 @@
+#menu{
+	display:flex;
+	justify-content: space-between;
+}
+#desktop{
+    display:none;
+}
+
+#menu img{
+    height:100%;
+	width: 250px;
+	max-width: 100%;
+}
+.fa-bars{
+	margin-top: 5px;
+	margin-right: 5px;
+	height: 100%;
+}
+
+header div img{
+    width: 100%;
+    max-width: 999px;
+    height: 250px;
+}
+
+#carousel{
+    display:flex;
+    justify-content: center;
+    background: url("../image/point.png") repeat center;
+    background-size: cover;
+    padding: 15px 0px;
+    width:100%;
+}
+#carousel i{
+    margin: 0px 5px;
+}

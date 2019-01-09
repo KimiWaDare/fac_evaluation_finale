@@ -1,0 +1,49 @@
+#energie{
+    margin-bottom: 15px;
+}
+
+#eTitle{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 25px;
+    text-align: center;
+    color: rgb( 252,183,49 );
+}
+
+#eTitle img{
+    max-width: 100px;
+    width: 100%;
+    margin:auto;
+}
+
+#energieImg{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+   
+}
+#energieImg div figure{
+    margin: 10px 20px;
+}
+#energieImg div figure img{
+    margin:auto;
+}
+
+#rehausseur{
+    padding-top: 10px;
+    color: rgb(179,209,67);
+}
+.rotate{
+    transform: rotate(270deg);
+}
+#brown{
+    color:rgb(195,165,117);
+}
+#orange{
+    color:rgb( 252,183,49 );
+}
+#blue{
+    color: rgb(0,175,236);
+}

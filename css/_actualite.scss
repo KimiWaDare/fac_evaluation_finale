@@ -1,0 +1,32 @@
+#actualite{
+    background-color: rgb(252,183,49 );
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.title{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.title div{
+    display:flex;
+    flex-direction: row;
+    margin: 0px 5px;
+}
+#actuContent{
+    width: 90%;
+    display:flex;
+    flex-direction:column;
+}
+#actuContent div img{
+    max-width: 100%;
+}
+#actuContent h2{
+    text-align :center;
+}
+#actuContent p{
+    margin-left: 20px;
+}

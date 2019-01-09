@@ -1,0 +1,28 @@
+#pourquoi{
+    background: url("../image/point.png") repeat center;
+    background-size: cover;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+#pourquoi h2{
+    text-align: center;
+}
+#plus{
+    float: right;
+}
+#second_input div{
+    max-width: 200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin:10px auto;
+    background-color: rgb(252,183,49 );
+    border-radius: 15px;
+}
+#second_input div p{
+    margin-right: 10px;
+}
+#second_input div p,i{
+    margin-top: 10px;
+}

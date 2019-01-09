@@ -1,0 +1,26 @@
+#Demarche{
+    background-color: rgb(179,209,67);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#Demarche h1{
+    margin-left: 10px;
+}
+#actuDemarche{
+    display:flex;
+    flex-direction:column;
+    width: 90%;
+}
+#actuDemarche img{
+    max-width: 100%;
+}
+#actuDemarche h2{
+    text-align :center;
+}
+
+#actuDemarche p{
+    margin-left: 20px;
+}

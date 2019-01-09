@@ -1,0 +1,35 @@
+#installation{
+    background: url("../image/point.png") repeat center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#installation h1{
+    margin-left: 10px;
+}
+#actuInstallation{
+    display:flex;
+    flex-direction:column;
+    width: 90%;
+}
+#actuInstallation img{
+    max-width: 100%;
+}
+#actuInstallation h2{
+    text-align :center;
+}
+#actuInstallation p,i{
+    margin-left: 20px;
+}
+#installButton{ 
+    max-width: 300px;
+    margin:auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(109,111,113);
+    padding: 5px 0px;
+    border-radius : 10px;
+}

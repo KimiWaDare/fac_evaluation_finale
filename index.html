@@ -15,48 +15,61 @@
 
 <body>
     <header>
-        <div id="menu">
-            <img src="logos/EnergiesCollectives_rectangle_Logo_ajuste.svg" />
-            <i class="fas fa-bars"></i>
+        <div id="mobile">
+            <div id="menu">
+                <img src="logos/EnergiesCollectives_rectangle_Logo_ajuste.svg" />
+                <i class="fas fa-bars"></i>
+            </div>
+            <div>
+                <img src="Photos/IMG_4106.jpg" />
+            </div>
         </div>
-        <div>
-            <img src="Photos/IMG_4106.jpg" />
+        <div id="desktop">
+            <div><img src="logos/LogoEnergiesCollectives_COMPLET.jpg"/></div>
+            <div id="deskMenu">
+                <p>Actualite</p> 
+                <p>Actualite</p> 
+                <p>Actualite</p> 
+                <p>Actualite</p> 
+                <p>Actualite</p>
+            </div>
+            <button id="deskButton">Souscrire</button>
         </div>
         <div id="carousel">
-            <i class="fas fa-angle-right"></i>
-            <i class="fas fa-circle"></i>
-            <i class="far fa-circle"></i>
-            <i class="fas fa-pause"></i>
-        </div>
+                <i class="fas fa-angle-right"></i>
+                <i class="fas fa-circle"></i>
+                <i class="far fa-circle"></i>
+                <i class="fas fa-pause"></i>
+            </div>
     </header>
     <main>
         <section id="energie">
-            <div><img src="img/favicon.ico" /></div>
-            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-            <div id="energie">
+            <div id="eTitle">
+                <img src="logos/LogoEnergiesCollectives_main.jpg" />
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+            </div>
+            <div id="energieImg">
                 <div>
-                    <figure>
+                    <figure id="brown">
                         <img src="svg/picto_coop.svg" />
                         <figcaption>Lorem ipsum</figcaption>
-                        <figcaption>Lorem ipsum</figcaption>
+
                     </figure>
-                    <figure class="rotate">
-                        <img src="svg/picto_photovoltaique.svg" />
-                        <figcaption>Lorem ipsum</figcaption>
+                    <figure id="orange">
+                        <img src="svg/picto_production_energie.svg" />
                         <figcaption>Lorem ipsum</figcaption>
                     </figure>
                 </div>
                 <div>
-                    <figure>
-                        <img src="svg/picto_production_energie.svg" />
-                        <figcaption>Lorem ipsum</figcaption>
+                    <figure id="rehausseur">
+                        <img src="svg/picto_photovoltaique.svg" class="rotate" />
                         <figcaption>Lorem ipsum</figcaption>
                     </figure>
-                    <figure>
+                    <figure id="blue">
                         <img src="svg/picto_capital.svg" />
                         <figcaption>Lorem ipsum</figcaption>
-                        <figcaption>Lorem ipsum</figcaption>
+
                     </figure>
                 </div>
             </div>
@@ -85,10 +98,10 @@
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
             </div>
             <div id="pourquoiContent">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing</br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing</br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing</br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
                 </p>
                 <div id="plus">
                     <i class="fas fa-plus-circle"></i>
@@ -96,20 +109,23 @@
             </div>
         </section>
         <div id="second_input">
-            <p>Souscrire !</p>
-            <i class="fas fa-check-circle"></i>
-
+            <div>
+                <p>Souscrire !</p>
+                <i class="fas fa-check-circle"></i>
+            </div>
         </div>
         <section id="actualite">
             <div class="title">
                 <h1>Lorem ipsum</h1>
-                <div id="gauche"><img src="svg/fleche_gauche.svg" /></div>
-                <div id="droite"><img src="svg/fleche_droite.svg" /></div>
+                <div>
+                    <div id="gauche"><img src="svg/fleche_gauche.svg" /></div>
+                    <div id="droite"><img src="svg/fleche_droite.svg" /></div>
+                </div>
             </div>
             <div id="actuContent">
                 <div><img src="Photos/IMG_4106.jpg" /></div>
                 <div>
-                    <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+                    <h2>Lorem ipsum dolor</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit commodo pharetra.
                         Vestibulum ullamcorper eu lorem id pellentesque. Phasellus feugiat tincidunt lorem in porta.
@@ -120,14 +136,17 @@
                     </p>
                     <i class="fas fa-plus-circle"></i>
                 </div>
+
             </div>
         </section>
         <section id="Demarche">
             <div>
                 <h1>Lorem ipsum</h1>
+            </div>
+            <div id="actuDemarche">
                 <div><img src="Photos/IMG_4106.jpg" /></div>
                 <div>
-                    <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+                    <h2>Lorem ipsum </h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit commodo pharetra.
                         Vestibulum ullamcorper eu lorem id pellentesque. Phasellus feugiat tincidunt lorem in porta.
@@ -143,9 +162,11 @@
         <section id="installation">
             <div>
                 <h1>Lorem ipsum</h1>
+            </div>
+            <div id="actuInstallation">
                 <div><img src="Photos/IMG_4106.jpg" /></div>
                 <div>
-                    <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+                    <h2>Lorem ipsum </h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit commodo pharetra.
                         Vestibulum ullamcorper eu lorem id pellentesque. Phasellus feugiat tincidunt lorem in porta.
@@ -154,11 +175,10 @@
                         in blandit felis. Aenean facilisis dui nec odio feugiat mattis. Etiam vel semper ipsum. Aliquam
                         nec justo porta felis tempor gravida a a nibh.
                     </p>
-                    <div>
-                        <i class="fas fa-plus-circle"></i>
-                    </div>
-
+                    <i class="fas fa-plus-circle"></i>
                 </div>
+            </div>
+            <div id="installButton">
                 <p>Lorem ipsum dolor</p>
             </div>
         </section>
@@ -197,7 +217,7 @@
             </div>
         </div>
         <div id="partenaires">
-            <p>Lorem ipsum</p>
+            <p>Lorem ipsum : </p>
             <img src="partenaires/Initiative-nord-hautes-alpes.png" />
             <img src="partenaires/arton82.jpg" />
             <img src="partenaires/enercoop.png" />
